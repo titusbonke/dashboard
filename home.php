@@ -27,7 +27,7 @@ if ($conn->connect_error) {
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="body">
+<body id="body" class="shrink">
 
   <style>
     /* start style to check if the sidebar is shirnk or not  */
@@ -49,6 +49,13 @@ if ($conn->connect_error) {
 
 body.shrink nav {
   width: 5.4rem;
+}
+nav .sidebar-links {
+  overflow-y: scroll;
+
+}
+nav .sidebar-links::-webkit-scrollbar{
+  width: 0;
 }
 /* end style to check if the sidebar is shirnk or not  */
   </style>
@@ -320,6 +327,7 @@ body.shrink nav {
       .action .menu ul li:hover a {
         color: var(--pri);}
       /*  css for profile photo and toggle button end */
+      
       </style>
   </nav>
 <main>
