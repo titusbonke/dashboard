@@ -50,13 +50,13 @@ if ($conn->connect_error) {
 body.shrink nav {
   width: 5.4rem;
 }
-nav .sidebar-links {
+/* nav .sidebar-links {
   overflow-y: scroll;
-
-}
-nav .sidebar-links::-webkit-scrollbar{
+overflow-x: visible;
+} */
+/* nav .sidebar-links::-webkit-scrollbar{
   width: 0;
-}
+} */
 /* end style to check if the sidebar is shirnk or not  */
   </style>
 
@@ -214,7 +214,7 @@ nav .sidebar-links::-webkit-scrollbar{
 
       body {
         background-color: #e4e2f5;
-        height: 100vh;
+        /* height: 100vh; */
       }
 
       .icons-size {
